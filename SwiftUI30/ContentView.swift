@@ -9,8 +9,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var username = ""
+    @State var firstname = ""
+    @State var lastname = ""
+    @State var email = ""
+    @State var password = ""
+    
     var body: some View {
-        Text("Hello, World!")
+        ScrollView(.vertical,showsIndicators: false){
+            VStack(spacing: 100){
+                TextField("Username", text: $username).textFieldStyle(RoundedBorderTextFieldStyle())
+                TextField("Firstname", text: $firstname).textFieldStyle(RoundedBorderTextFieldStyle())
+                TextField("Lastname", text: $lastname).textFieldStyle(RoundedBorderTextFieldStyle())
+                TextField("Email", text: $email).textFieldStyle(RoundedBorderTextFieldStyle())
+                TextField("Password", text: $password).textFieldStyle(RoundedBorderTextFieldStyle())
+            }.padding()
+        }.handleKeyboard()
     }
 }
 

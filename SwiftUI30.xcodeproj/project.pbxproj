@@ -13,6 +13,7 @@
 		22D6132324DE8FC1006E0724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D6132224DE8FC1006E0724 /* Assets.xcassets */; };
 		22D6132624DE8FC1006E0724 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D6132524DE8FC1006E0724 /* Preview Assets.xcassets */; };
 		22D6132924DE8FC1006E0724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D6132724DE8FC1006E0724 /* LaunchScreen.storyboard */; };
+		22D6133124DF17BD006E0724 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6133024DF17BD006E0724 /* Keyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		22D6132524DE8FC1006E0724 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		22D6132824DE8FC1006E0724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22D6132A24DE8FC1006E0724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22D6133024DF17BD006E0724 /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				22D6132724DE8FC1006E0724 /* LaunchScreen.storyboard */,
 				22D6132A24DE8FC1006E0724 /* Info.plist */,
 				22D6132424DE8FC1006E0724 /* Preview Content */,
+				22D6133024DF17BD006E0724 /* Keyboard.swift */,
 			);
 			path = SwiftUI30;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			files = (
 				22D6131D24DE8FBC006E0724 /* AppDelegate.swift in Sources */,
 				22D6131F24DE8FBC006E0724 /* SceneDelegate.swift in Sources */,
+				22D6133124DF17BD006E0724 /* Keyboard.swift in Sources */,
 				22D6132124DE8FBC006E0724 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +290,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI30/Preview Content\"";
+				DEVELOPMENT_TEAM = 6Q233F3ZPX;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUI30/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,6 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI30/Preview Content\"";
+				DEVELOPMENT_TEAM = 6Q233F3ZPX;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUI30/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
